@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+div.wrap {
+    margin: 20px;
+    width: 977px;
+    border: 5px solid #87cfe8;
+}
+
+/* header.header s */
+header.header {
+    position: relative;
+    /*border: 3px solid #000;*/
+}
+
+.header > .headerTxt {
+    color: #ffff02;
+    font-size: 85px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.header > .headerImg {
+    height: 283px;
+    /*border: 2px solid #f00;*/
+}
+
+.gnb > ul {
+    width: 967px;
+    height: 60px;
+    background-color: #006600;
+}
+
+.gnb > ul > li {
+    float: left;
+    /*border: 1px solid #000;*/
+
+}
+
+.gnb > ul > li > a {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    /*border: 1px solid #000;*/
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* header.header e */
+
+/* main.main s */
+main.main {
+    /*border: 1px solid #000;*/
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    justify-content: space-between
+}
+
+.main > .mainTxt {
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 730px;
+    /*border: 1px solid #000;*/
+}
+
+.main > .mainImg {
+    padding-top: 17px;
+    width: 220px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #deffdf;
+}
+
+.main > .mainImg img {
+    /*border: 1px solid #000;*/
+    margin-bottom: 17px;
+}
+
+/* main.main e */
+
+/* footer.footer s */
+footer.footer {
+    /*border: 1px solid #000;*/
+    width: 967px;
+    height: 100px;
+    background-color: #071f1f;
+}
+
+.footer > .footerTxt {
+    color: #fff;
+    line-height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer > .footerTxt > span {
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* footer.footer s */
